@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EA3A9B19584CEC0068CF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA3A9A19584CEC0068CF0E /* AppDelegate.swift */; };
+		04EA3A9E19584CEC0068CF0E /* ElegantPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04EA3A9C19584CEC0068CF0E /* ElegantPlayer.xcdatamodeld */; };
+		04EA3AA019584CEC0068CF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA3A9F19584CEC0068CF0E /* ViewController.swift */; };
+		04EA3AA319584CEC0068CF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA3AA119584CEC0068CF0E /* Main.storyboard */; };
+		04EA3AA519584CEC0068CF0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA3AA419584CEC0068CF0E /* Images.xcassets */; };
+		04EA3AB119584CEC0068CF0E /* ElegantPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA3AB019584CEC0068CF0E /* ElegantPlayerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EA3AAB19584CEC0068CF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA3A8D19584CEC0068CF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EA3A9419584CEC0068CF0E;
+			remoteInfo = ElegantPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EA3A9519584CEC0068CF0E /* ElegantPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegantPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA3A9919584CEC0068CF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA3A9A19584CEC0068CF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EA3A9D19584CEC0068CF0E /* ElegantPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElegantPlayer.xcdatamodel; sourceTree = "<group>"; };
+		04EA3A9F19584CEC0068CF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EA3AA219584CEC0068CF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EA3AA419584CEC0068CF0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EA3AAA19584CEC0068CF0E /* ElegantPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegantPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA3AAF19584CEC0068CF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA3AB019584CEC0068CF0E /* ElegantPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantPlayerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EA3A9219584CEC0068CF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA3AA719584CEC0068CF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EA3A8C19584CEC0068CF0E = {
+			isa = PBXGroup;
+			children = (
+				04EA3A9719584CEC0068CF0E /* ElegantPlayer */,
+				04EA3AAD19584CEC0068CF0E /* ElegantPlayerTests */,
+				04EA3A9619584CEC0068CF0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EA3A9619584CEC0068CF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA3A9519584CEC0068CF0E /* ElegantPlayer.app */,
+				04EA3AAA19584CEC0068CF0E /* ElegantPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EA3A9719584CEC0068CF0E /* ElegantPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04EA3A9A19584CEC0068CF0E /* AppDelegate.swift */,
+				04EA3A9F19584CEC0068CF0E /* ViewController.swift */,
+				04EA3AA119584CEC0068CF0E /* Main.storyboard */,
+				04EA3AA419584CEC0068CF0E /* Images.xcassets */,
+				04EA3A9C19584CEC0068CF0E /* ElegantPlayer.xcdatamodeld */,
+				04EA3A9819584CEC0068CF0E /* Supporting Files */,
+			);
+			path = ElegantPlayer;
+			sourceTree = "<group>";
+		};
+		04EA3A9819584CEC0068CF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EA3A9919584CEC0068CF0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EA3AAD19584CEC0068CF0E /* ElegantPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EA3AB019584CEC0068CF0E /* ElegantPlayerTests.swift */,
+				04EA3AAE19584CEC0068CF0E /* Supporting Files */,
+			);
+			path = ElegantPlayerTests;
+			sourceTree = "<group>";
+		};
+		04EA3AAE19584CEC0068CF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EA3AAF19584CEC0068CF0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EA3A9419584CEC0068CF0E /* ElegantPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA3AB419584CEC0068CF0E /* Build configuration list for PBXNativeTarget "ElegantPlayer" */;
+			buildPhases = (
+				04EA3A9119584CEC0068CF0E /* Sources */,
+				04EA3A9219584CEC0068CF0E /* Frameworks */,
+				04EA3A9319584CEC0068CF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElegantPlayer;
+			productName = ElegantPlayer;
+			productReference = 04EA3A9519584CEC0068CF0E /* ElegantPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EA3AA919584CEC0068CF0E /* ElegantPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA3AB719584CEC0068CF0E /* Build configuration list for PBXNativeTarget "ElegantPlayerTests" */;
+			buildPhases = (
+				04EA3AA619584CEC0068CF0E /* Sources */,
+				04EA3AA719584CEC0068CF0E /* Frameworks */,
+				04EA3AA819584CEC0068CF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EA3AAC19584CEC0068CF0E /* PBXTargetDependency */,
+			);
+			name = ElegantPlayerTests;
+			productName = ElegantPlayerTests;
+			productReference = 04EA3AAA19584CEC0068CF0E /* ElegantPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EA3A8D19584CEC0068CF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jack;
+				TargetAttributes = {
+					04EA3A9419584CEC0068CF0E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					04EA3AA919584CEC0068CF0E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 04EA3A9419584CEC0068CF0E;
+					};
+				};
+			};
+			buildConfigurationList = 04EA3A9019584CEC0068CF0E /* Build configuration list for PBXProject "ElegantPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EA3A8C19584CEC0068CF0E;
+			productRefGroup = 04EA3A9619584CEC0068CF0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EA3A9419584CEC0068CF0E /* ElegantPlayer */,
+				04EA3AA919584CEC0068CF0E /* ElegantPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EA3A9319584CEC0068CF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA3AA319584CEC0068CF0E /* Main.storyboard in Resources */,
+				04EA3AA519584CEC0068CF0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA3AA819584CEC0068CF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EA3A9119584CEC0068CF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA3AA019584CEC0068CF0E /* ViewController.swift in Sources */,
+				04EA3A9B19584CEC0068CF0E /* AppDelegate.swift in Sources */,
+				04EA3A9E19584CEC0068CF0E /* ElegantPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA3AA619584CEC0068CF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA3AB119584CEC0068CF0E /* ElegantPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EA3AAC19584CEC0068CF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EA3A9419584CEC0068CF0E /* ElegantPlayer */;
+			targetProxy = 04EA3AAB19584CEC0068CF0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EA3AA119584CEC0068CF0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA3AA219584CEC0068CF0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EA3AB219584CEC0068CF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EA3AB319584CEC0068CF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EA3AB519584CEC0068CF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ElegantPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EA3AB619584CEC0068CF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ElegantPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04EA3AB819584CEC0068CF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElegantPlayer.app/ElegantPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElegantPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		04EA3AB919584CEC0068CF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElegantPlayer.app/ElegantPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElegantPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EA3A9019584CEC0068CF0E /* Build configuration list for PBXProject "ElegantPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA3AB219584CEC0068CF0E /* Debug */,
+				04EA3AB319584CEC0068CF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA3AB419584CEC0068CF0E /* Build configuration list for PBXNativeTarget "ElegantPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA3AB519584CEC0068CF0E /* Debug */,
+				04EA3AB619584CEC0068CF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EA3AB719584CEC0068CF0E /* Build configuration list for PBXNativeTarget "ElegantPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA3AB819584CEC0068CF0E /* Debug */,
+				04EA3AB919584CEC0068CF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04EA3A9C19584CEC0068CF0E /* ElegantPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04EA3A9D19584CEC0068CF0E /* ElegantPlayer.xcdatamodel */,
+			);
+			currentVersion = 04EA3A9D19584CEC0068CF0E /* ElegantPlayer.xcdatamodel */;
+			path = ElegantPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04EA3A8D19584CEC0068CF0E /* Project object */;
+}
